@@ -14,11 +14,11 @@ body{
 
 header{
     background-color: #D05723;
-    width: 296;
+    width: 290px;
     border: 2px solid #1F0D05;
     outline: 8px outset #F8D8CD;
     margin: 0 auto;
-    padding: 1em;
+    padding: 1em 0.25em 1em 0;
 }
 
 h1{
@@ -40,8 +40,8 @@ h2{
 }
 
 nav{
-    width: 332px;
-    padding: 1em;
+    width: 320px;
+    padding: 1em 0;
     margin: 0 auto;
 }
 
@@ -55,6 +55,10 @@ li{
     list-style-type: none;
     font-size: 1.125em;
     text-transform: uppercase;
+}
+
+li:last-of-type{
+    margin-top: 0.5em;
 }
 
 main{
